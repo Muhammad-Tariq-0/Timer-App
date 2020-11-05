@@ -55,7 +55,7 @@ function startTimer() {
         <span>{seconds > 10 ? seconds : `0${seconds}`}</span>
       </div>
       <div className="btn">
-      <span className="mouse" onClick={startTimer}>{status==2 ? <img src={pause} width={50} height={50}/> : <img src={play} width={50} height={50}/>}</span>
+      <span className="mouse" onClick={startTimer}>{status===2 ? <img src={pause} width={50} height={50}/> : <img src={play} width={50} height={50}/>}</span>
       <span className="mouse" onClick={stop}><img src={stopTimer} width={50} height={50}/></span>
       <span className="mouse" onClick={reset}><img src={resetTimer} width={50} height={50}/></span>
 
