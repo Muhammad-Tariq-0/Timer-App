@@ -17,7 +17,7 @@ function startTimer() {
     setinterv(
       setInterval(() => {
         start();
-      }, 200)
+      }, 1000)
     );
 }
 }
